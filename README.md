@@ -1,60 +1,84 @@
-![](https://github.com/FPGAwars/icm/raw/master/wiki/Logo/icm-github.svg)
-
-[![PyPI Version][pypi-image]][pypi-url]
-[![Build Status][build-image]][build-url]
-[![License][license-image]][license-url]
 
 
-# Icestudio collection manager
+# MyCollection Collection
 
-Tools to manage [Icestudio](https://github.com/FPGAwars) collections: template creation, translation update, automatic readme generation...
-
-## Documentation
-
-Find all the information on the [WIKI page](https://github.com/FPGAwars/icm/wiki)  
-
-## Install
-
-```bash
-pip install icm
-```
-
-## Commands
-
-|  Command   | Description |
-|:----------:|:-----------:|
-| [create](https://github.com/FPGAwars/icm/wiki#icm-create) | Create a collection structure. |
-| [update](https://github.com/FPGAwars/icm/wiki#icm-update) | Update docs and translation. |
-| [validate](https://github.com/FPGAwars/icm/wiki#icm-validate) | Validate a collection. |
-
-## Development
-
-### Installing the development version on Ubuntu
-
-```
-sudo pip3 install -U git+https://github.com/FPGAwars/icm.git
-```
+[![Icestudio][icestudio-image]][icestudio-url]
+![Version][version-image]
 
 
-## Authors
+Awesome collection
 
-* [Jesús Arroyo Torrens](https://github.com/Jesus89)
-
-## Contributors
-
-* [Juan Gonzalez Gomez (Obijuan)](https://github.com/Obijuan)  
 
 ## License
 
-Licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0).
+Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
 
-------
-![](https://github.com/FPGAwars/icestudio-wiki/raw/main/Logos/fgpawars-banner.svg)
+## Install
+
+For installing and using this colection in Icestudio follow these steps:
+
+* Download the collection
+* Install the collection: *Tools > Collections > Add*
+* Select the collection: *Select > Collection*
+
+
+## Blocks
+* **Icestudio-ArithmeticBlocks-main**
+  * abs_int16
+  * abs_int24
+  * add_int16_sat
+  * add_int24_sat
+  * add_int32_sat
+  * compare_int16
+  * compare_int24
+  * div_int16
+  * div_int16_clocked
+  * div_int24
+  * div_int32
+  * div_int32_16
+  * div_int48_24
+  * div_uint16
+  * div_uint24
+  * div_uint32
+  * max_int16
+  * max_int24
+  * min_int16
+  * min_int24
+  * mul_int16
+  * mul_int16_32
+  * mul_int16_sat
+  * mul_int24_48
+  * mul_int8_16
+  * muldiv_int16
+  * muldiv_int16_sat
+  * muldiv_int16_sat_clocked
+  * muldiv_int24
+  * neg_int16
+  * neg_int24
+  * nop_int16
+  * nop_int16_clocked
+  * nop_int24
+  * nop_int24_clocked
+  * select_int16
+  * select_int24
+  * sqrt_uint16
+  * sqrt_uint24
+  * sqrt_uint32
+  * sub_int16_sat
+  * sub_int24_sat
+  * sub_int32_sat
+  * test_serial_muldiv_int16
+  * test_serial_sqrt_uint16
+  * timer_16bits
+
+
+
+
+
+-------
+
 
 <!-- Badges -->
-[pypi-image]: https://img.shields.io/pypi/v/icm
-[pypi-url]: https://pypi.org/project/icm/
-[build-image]: https://github.com/FPGAwars/icm/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/FPGAwars/icm/actions/workflows/build.yml
-[license-image]: http://img.shields.io/:license-gpl-blue.svg
-[license-url]: (http://opensource.org/licenses/GPL-2.0)
+[icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
+[icestudio-url]: https://github.com/FPGAwars/icestudio
+[version-image]: https://img.shields.io/badge/version-v0.1.0-orange.svg
